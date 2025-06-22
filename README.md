@@ -139,30 +139,6 @@ q1/
 - Requires Node.js 14+ for ES modules support
 - Update Node.js if encountering module import errors
 
-## 📝 Example Session
-
-```bash
-$ node tokenise.js
-
-🤖 NLP TOKENIZER & MASK PREDICTION CLI
-==================================================
-1. 🔤 Tokenizer Types Analysis
-2. 🎭 Mask & Predict
-3. 🚪 Exit
-==================================================
-Enter your choice (1-3): 1
-
-🔤 TOKENIZER ANALYSIS
-==================================================
-📝 Input sentence: "The cat sat on the mat because it was tired."
-
-🔠 Tokenizer: BPE (bert-base-cased)
-----------------------------------------
-🔢 Token IDs: [101, 1109, 5855, 2068, 1113, 1103, 22591, 1272, 1122, 1108, 4871, 119, 102]
-📏 Token Count: 13
-🧩 Tokens: ['[CLS]', 'The', 'cat', 'sat', 'on', 'the', 'mat', 'because', 'it', 'was', 'tired', '.', '[SEP]']
-```
-
 ## 📄 License
 
 ISC License
