@@ -1,0 +1,53 @@
+{
+  "masked_input": "The cat [MASK] on the mat because it [MASK] tired.",
+  "original_sentence": "The cat sat on the mat because it was tired.",
+  "model_used": "BERT-based fill-mask model",
+  "predictions": {
+    "mask_1": [
+      {
+        "rank": 1,
+        "token": "sat",
+        "score": 0.3861,
+        "confidence_percentage": 38.61,
+        "plausibility_comment": "Highly plausible - original word, perfect grammatical fit"
+      },
+      {
+        "rank": 2,
+        "token": "lay",
+        "score": 0.1137,
+        "confidence_percentage": 11.37,
+        "plausibility_comment": "Plausible - cats do lay on mats, good alternative"
+      },
+      {
+        "rank": 3,
+        "token": "slept",
+        "score": 0.0612,
+        "confidence_percentage": 6.12,
+        "plausibility_comment": "Very plausible - cats often sleep on mats"
+      }
+    ],
+    "mask_2": [
+      {
+        "rank": 1,
+        "token": "was",
+        "score": 0.9125,
+        "confidence_percentage": 91.25,
+        "plausibility_comment": "Highly plausible - original word, explains the resting behavior perfectly"
+      },
+      {
+        "rank": 2,
+        "token": "got",
+        "score": 0.0256,
+        "confidence_percentage": 2.56,
+        "plausibility_comment": "Moderately plausible - \"got tired\" is common usage, fits context"
+      },
+      {
+        "rank": 3,
+        "token": "looked",
+        "score": 0.0142,
+        "confidence_percentage": 1.42,
+        "plausibility_comment": "Less plausible - \"looked tired\" changes meaning, less natural"
+      }
+    ]
+  }
+}
